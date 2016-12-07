@@ -70,3 +70,5 @@ function borrower(loan){
     }
   }
 };
+
+steve = borrower(stevesLoan);
