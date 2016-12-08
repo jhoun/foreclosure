@@ -1,9 +1,9 @@
 'use strict';
+
 var steve;
 var stevesLoan;
 var month = 0;
 var monthsUntilEvicted;
-
 
 function loan() {
 
@@ -47,8 +47,6 @@ function loan() {
   };
 }
 
-
-
 function borrower(loan) {
   var account = {
     monthlyIncome : 1350,
@@ -80,7 +78,6 @@ function borrower(loan) {
 
 stevesLoan = loan();
 steve = borrower(stevesLoan);
-
 
 while (!stevesLoan.isForeclosed()) {
   steve.payDay();
